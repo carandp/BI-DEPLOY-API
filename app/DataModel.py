@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 
 class DataModel(BaseModel):
-    objid: int
     ra: float
     dec: float
     u: float
@@ -20,4 +19,4 @@ class DataModel(BaseModel):
     colv: float
     
     def columns(self):
-        return ["objid","ra", "dec", "u", "g", "r", "i", "z", "run", "camcol", "field", "score", "clean", "class", "mjd", "rowv", "colv"]
+        return ["ra", "dec", "u", "g", "r", "i", "z", "run", "camcol", "field", "score", "clean", "class", "mjd", "rowv", "colv"]
