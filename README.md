@@ -2,8 +2,9 @@
 
 ## Ejecución
 
-Para correr el proyecto ingresar a la carpeta app y ejecutar:
-> uvicorn main:app --reload;
+Para correr el proyecto, clonar e ingresar a la carpeta app y ejecutar:
+> uvicorn main:app --reload
+<br>
 Posteriormente dirigirse al navegador y buscar:
 > http://127.0.0.1:8000
 
